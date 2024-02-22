@@ -11,7 +11,7 @@ import "react-toastify/dist/ReactToastify.css";
 //
 export default function SignUp() {
   useEffect(() => {
-    axios.get("http://localhost:6003/wakeup").then((res) => {
+    axios.get("https://foody-be.onrender.com/wakeup").then((res) => {
       console.log(res);
     });
   }, []);
@@ -55,10 +55,13 @@ export default function SignUp() {
       formSub();
       async function formSub() {
         try {
-          const res = await axios.post("http://localhost:6003/api/user/", {
-            ...user,
-            password: user.pass1,
-          });
+          const res = await axios.post(
+            "https://foody-be.onrender.com/api/user/",
+            {
+              ...user,
+              password: user.pass1,
+            }
+          );
           console.log(res);
           setLoading(false);
           alert("Verification Mail Send ,Check Inbox and Spam Folder ");

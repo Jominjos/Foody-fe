@@ -15,7 +15,7 @@ import Cookies from "js-cookie";
 
 //import Cookies from "js-cookie";
 
-axios.defaults.baseURL = "http://localhost:6003";
+axios.defaults.baseURL = "https://foody-be.onrender.com";
 
 //http://localhost:6003
 //https://qdemy.onrender.com

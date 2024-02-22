@@ -37,7 +37,7 @@ export default function Login() {
   //wake up server
 
   useEffect(() => {
-    axios.get("https://qdemy.onrender.com/wakeup").then((res) => {
+    axios.get("https://foody-be.onrender.com/wakeup").then((res) => {
       console.log(res);
     });
   }, []);
@@ -49,7 +49,7 @@ export default function Login() {
     serverDelay();
 
     axios
-      .post("http://localhost:6003/api/user/auth", cred)
+      .post("https://foody-be.onrender.com/api/user/auth", cred)
       .then((res) => {
         //console.log(res);
         console.log("num1");

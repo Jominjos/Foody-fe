@@ -6,7 +6,7 @@ import axios from "axios";
 //https://qdemy-ten.vercel.app
 
 export const axiosInstance = axios.create({
-  baseURL: "http://localhost:6003", // Set your API base URL
+  baseURL: "https://foody-be.onrender.com", // Set your API base URL
   headers: {
     "Content-Type": "application/json",
     //token: Cookies.get("token"), // Add any authentication headers
