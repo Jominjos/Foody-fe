@@ -1,0 +1,42 @@
+.img-fluid{
+    width: 100%;
+   height: 150px;
+    
+   
+}   
+#but-con{
+   
+}
+#card{
+    height: 380px;
+}
+#star{
+    width: 20px;
+}
+
+#star-con{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+
+.cards{
+    min-width: 250px;
+    height: 330px !important;
+}
+
+.cardsbody{
+    padding:  10px 10px !important;
+}
+.navbar-brand{
+    
+    text-decoration:none !important;
+    color: rgb(24, 30, 27);
+}
+
+
+.header{
+   
+    padding: 20px 0px !important;
+}
