@@ -143,7 +143,7 @@ export default function Login() {
                       )}
                     </div>
                   </form>
-                  <div>
+                  {/* <div>
                     <h4 className="text-center">Demo Credentials</h4>
                     <div className="d-flex justify-content-evenly">
                       <button
@@ -169,7 +169,7 @@ export default function Login() {
                         Admin
                       </button>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
