@@ -4,7 +4,7 @@ export default function Authnavbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container px-4 px-lg-5">
-        <h2>Qdemy</h2>
+        <h2>Foody</h2>
         <button
           className="navbar-toggler"
           type="button"

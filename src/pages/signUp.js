@@ -6,6 +6,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Navbar from "../comp/navbar";
+import Authnavbar from "../comp/authnavbar";
 //
 //
 
@@ -84,9 +85,9 @@ export default function SignUp() {
   //console.log(user);
   return (
     <>
-      <Navbar />
+      <Authnavbar />
       <ToastContainer position={toast.POSITION.TOP_CENTER} />
-      <section className="vh-100" style={{ backgroundColor: "#eee" }}>
+      <section className="vh-200" style={{ backgroundColor: "#eee" }}>
         <div className="container h-100">
           <div className="row d-flex justify-content-center align-items-center h-100">
             <div className="col-lg-6 col-xl-5">
