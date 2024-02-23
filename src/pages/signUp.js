@@ -5,6 +5,7 @@ import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Navbar from "../comp/navbar";
 //
 //
 
@@ -83,6 +84,7 @@ export default function SignUp() {
   //console.log(user);
   return (
     <>
+      <Navbar />
       <ToastContainer position={toast.POSITION.TOP_CENTER} />
       <section className="vh-100" style={{ backgroundColor: "#eee" }}>
         <div className="container h-100">

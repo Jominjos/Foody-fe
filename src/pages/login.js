@@ -6,6 +6,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { axiosInstance } from "../api/axios";
+import Authnavbar from "../comp/authnavbar";
 export default function Login() {
   let [loading, setLoading] = useState(false);
   const navigate = useNavigate();
@@ -84,6 +85,7 @@ export default function Login() {
 
   return (
     <>
+      <Authnavbar />
       <ToastContainer position={toast.POSITION.TOP_CENTER} autoClose={3000} />
       <section className="vh-100" style={{ backgroundColor: "#eee" }}>
         <div className="container h-100">
