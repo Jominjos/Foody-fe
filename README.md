@@ -1,3 +1,15 @@
+#Foody App
+Url: https://foody4.netlify.app/
+
+Description
+This is a basic React application for a food delivery website. It includes a sign-up page and a login page where users can register for an account or log in to access the platform.
+
+Features
+User sign-up: Users can register for an account by providing their details such as name, email, password, etc.
+User login: Registered users can log in to access the website's features.
+Authentication: User authentication is implemented to secure the application.
+Responsive design: The application is designed to be responsive and work well on different devices.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
