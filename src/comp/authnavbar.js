@@ -18,7 +18,7 @@ export default function Authnavbar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
-            <h6 className="mb-0">Skill up and Scale up</h6>
+            <h6 className="mb-0">Food Delivery</h6>
           </ul>
           <form className="d-flex">
             <Link to="/login">
